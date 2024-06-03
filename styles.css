@@ -1,0 +1,71 @@
+
+body{
+    background-color: rgb(85, 85, 85);
+    color: beige;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+}
+.score-container{
+    display: block;
+    margin: auto;
+    background-color: aqua;
+    color: brown;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px black,
+    0px 0px 10px black,
+    0px 0px 15px black,
+    0px 0px 20px black;
+    text-align: center;
+}
+.rules-container{
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 12px;
+    border: solid 10px silver;
+    margin-bottom: 50px;
+    color:blueviolet;
+
+}
+.option h2{
+    text-align: center;
+}
+.option{
+    margin: 50px;
+    
+}
+
+.option button{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+    height: 10vh;
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+    color: aqua;
+    border-radius: 12px;
+    background-color: blueviolet;
+}
+.option button:hover{
+    box-shadow: 0 0 10px gold,
+    0 0 5px gold;
+}
+   
+
+#scissors{
+    background-image: url("images/scissors.png");
+    padding: 23px;
+}    
+#paper{
+    background-image: url(images/paper.png);
+}
+#rock{
+    background-image: url("images/Rock.png");
+ 
+}
